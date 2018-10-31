@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- maxElementInMemory means number of object
+eternal means for ever or not
+ timeToIdleSeconds means idle time to live
+ timeToLiveSeconds means the actual time to live-->
+
+
+<ehcache>  
+<defaultCache maxElementsInMemory="100" eternal="false" timeToIdleSeconds="120" timeToLiveSeconds="200" />  
+  
+<cache name="hqlhiber.Employee" maxElementsInMemory="100" eternal="false" timeToIdleSeconds="5" timeToLiveSeconds="200" />  
+</ehcache>
+
+
